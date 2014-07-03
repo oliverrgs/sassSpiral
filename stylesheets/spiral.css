@@ -1,0 +1,1466 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/spiral.scss */
+.spiralContainer {
+  border-color: red;
+}
+
+@-moz-keyframes spin {
+  /* line 45, ../sass/spiral.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 46, ../sass/spiral.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  /* line 47, ../sass/spiral.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes changecircle {
+  /* line 52, ../sass/spiral.scss */
+  0% {
+    background: red;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  16.66667% {
+    background: orange;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  33.33333% {
+    background: yellow;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  50% {
+    background: green;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  66.66667% {
+    background: blue;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  83.33333% {
+    background: purple;
+  }
+
+  /* line 52, ../sass/spiral.scss */
+  100% {
+    background: red;
+  }
+}
+
+@keyframes changecircle {
+  /* line 58, ../sass/spiral.scss */
+  0% {
+    background: red;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  16.66667% {
+    background: orange;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  33.33333% {
+    background: yellow;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  50% {
+    background: green;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  66.66667% {
+    background: blue;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  83.33333% {
+    background: purple;
+  }
+
+  /* line 58, ../sass/spiral.scss */
+  100% {
+    background: red;
+  }
+}
+
+/* line 64, ../sass/spiral.scss */
+.allspiral, .spiral1, .spiral2, .spiral3, .spiral4, .spiral5, .spiral6, .spiral7, .spiral8, .spiral9, .spiral10, .spiral11, .spiral12, .spiral13, .spiral14, .spiral15, .spiral16, .spiral17, .spiral18, .spiral19, .spiral20, .spiral21, .spiral22, .spiral23, .spiral24, .spiral25, .spiral26, .spiral27, .spiral28, .spiral29, .spiral30, .spiral31, .spiral32, .spiral33, .spiral34, .spiral35, .spiral36, .spiral37, .spiral38, .spiral39, .spiral40, .spiral41, .spiral42, .spiral43, .spiral44, .spiral45, .spiral46, .spiral47, .spiral48, .spiral49, .spiral50, .spiral51, .spiral52, .spiral53, .spiral54, .spiral55, .spiral56, .spiral57, .spiral58, .spiral59, .spiral60, .spiral61, .spiral62, .spiral63, .spiral64, .spiral65, .spiral66, .spiral67, .spiral68, .spiral69, .spiral70, .spiral71, .spiral72, .spiral73, .spiral74, .spiral75, .spiral76, .spiral77, .spiral78, .spiral79, .spiral80 {
+  position: absolute;
+  background-color: yellow;
+  -webkit-animation: changecircle 5s infinite;
+  animation: changecircle 5s infinite;
+}
+
+/* line 97, ../sass/spiral.scss */
+.spiralContainer {
+  -webkit-animation: spin 5s infinite;
+  animation: spin 5s infinite;
+  width: 160;
+  height: 160;
+  position: relative;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral1 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 158;
+  test: 1;
+  height: 158;
+  top: 1;
+  left: 1;
+  -webkit-border-radius: 79px;
+  -moz-border-radius: 79px;
+  -ms-border-radius: 79px;
+  border-radius: 79px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral2 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 156;
+  test: 2;
+  height: 156;
+  top: 2;
+  left: 3;
+  -webkit-border-radius: 78px;
+  -moz-border-radius: 78px;
+  -ms-border-radius: 78px;
+  border-radius: 78px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral3 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 154;
+  test: 3;
+  height: 154;
+  top: 4;
+  left: 3;
+  -webkit-border-radius: 77px;
+  -moz-border-radius: 77px;
+  -ms-border-radius: 77px;
+  border-radius: 77px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral4 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 152;
+  test: 0;
+  height: 152;
+  top: 4;
+  left: 4;
+  -webkit-border-radius: 76px;
+  -moz-border-radius: 76px;
+  -ms-border-radius: 76px;
+  border-radius: 76px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral5 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 150;
+  test: 1;
+  height: 150;
+  top: 5;
+  left: 5;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  border-radius: 75px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral6 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 148;
+  test: 2;
+  height: 148;
+  top: 6;
+  left: 7;
+  -webkit-border-radius: 74px;
+  -moz-border-radius: 74px;
+  -ms-border-radius: 74px;
+  border-radius: 74px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral7 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 146;
+  test: 3;
+  height: 146;
+  top: 8;
+  left: 7;
+  -webkit-border-radius: 73px;
+  -moz-border-radius: 73px;
+  -ms-border-radius: 73px;
+  border-radius: 73px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral8 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 144;
+  test: 0;
+  height: 144;
+  top: 8;
+  left: 8;
+  -webkit-border-radius: 72px;
+  -moz-border-radius: 72px;
+  -ms-border-radius: 72px;
+  border-radius: 72px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral9 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 142;
+  test: 1;
+  height: 142;
+  top: 9;
+  left: 9;
+  -webkit-border-radius: 71px;
+  -moz-border-radius: 71px;
+  -ms-border-radius: 71px;
+  border-radius: 71px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral10 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 140;
+  test: 2;
+  height: 140;
+  top: 10;
+  left: 11;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  border-radius: 70px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral11 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 138;
+  test: 3;
+  height: 138;
+  top: 12;
+  left: 11;
+  -webkit-border-radius: 69px;
+  -moz-border-radius: 69px;
+  -ms-border-radius: 69px;
+  border-radius: 69px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral12 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 136;
+  test: 0;
+  height: 136;
+  top: 12;
+  left: 12;
+  -webkit-border-radius: 68px;
+  -moz-border-radius: 68px;
+  -ms-border-radius: 68px;
+  border-radius: 68px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral13 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 134;
+  test: 1;
+  height: 134;
+  top: 13;
+  left: 13;
+  -webkit-border-radius: 67px;
+  -moz-border-radius: 67px;
+  -ms-border-radius: 67px;
+  border-radius: 67px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral14 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 132;
+  test: 2;
+  height: 132;
+  top: 14;
+  left: 15;
+  -webkit-border-radius: 66px;
+  -moz-border-radius: 66px;
+  -ms-border-radius: 66px;
+  border-radius: 66px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral15 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 130;
+  test: 3;
+  height: 130;
+  top: 16;
+  left: 15;
+  -webkit-border-radius: 65px;
+  -moz-border-radius: 65px;
+  -ms-border-radius: 65px;
+  border-radius: 65px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral16 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 128;
+  test: 0;
+  height: 128;
+  top: 16;
+  left: 16;
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  -ms-border-radius: 64px;
+  border-radius: 64px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral17 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 126;
+  test: 1;
+  height: 126;
+  top: 17;
+  left: 17;
+  -webkit-border-radius: 63px;
+  -moz-border-radius: 63px;
+  -ms-border-radius: 63px;
+  border-radius: 63px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral18 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 124;
+  test: 2;
+  height: 124;
+  top: 18;
+  left: 19;
+  -webkit-border-radius: 62px;
+  -moz-border-radius: 62px;
+  -ms-border-radius: 62px;
+  border-radius: 62px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral19 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 122;
+  test: 3;
+  height: 122;
+  top: 20;
+  left: 19;
+  -webkit-border-radius: 61px;
+  -moz-border-radius: 61px;
+  -ms-border-radius: 61px;
+  border-radius: 61px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral20 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 120;
+  test: 0;
+  height: 120;
+  top: 20;
+  left: 20;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  border-radius: 60px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral21 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 118;
+  test: 1;
+  height: 118;
+  top: 21;
+  left: 21;
+  -webkit-border-radius: 59px;
+  -moz-border-radius: 59px;
+  -ms-border-radius: 59px;
+  border-radius: 59px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral22 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 116;
+  test: 2;
+  height: 116;
+  top: 22;
+  left: 23;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
+  -ms-border-radius: 58px;
+  border-radius: 58px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral23 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 114;
+  test: 3;
+  height: 114;
+  top: 24;
+  left: 23;
+  -webkit-border-radius: 57px;
+  -moz-border-radius: 57px;
+  -ms-border-radius: 57px;
+  border-radius: 57px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral24 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 112;
+  test: 0;
+  height: 112;
+  top: 24;
+  left: 24;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  -ms-border-radius: 56px;
+  border-radius: 56px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral25 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 110;
+  test: 1;
+  height: 110;
+  top: 25;
+  left: 25;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  -ms-border-radius: 55px;
+  border-radius: 55px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral26 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 108;
+  test: 2;
+  height: 108;
+  top: 26;
+  left: 27;
+  -webkit-border-radius: 54px;
+  -moz-border-radius: 54px;
+  -ms-border-radius: 54px;
+  border-radius: 54px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral27 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 106;
+  test: 3;
+  height: 106;
+  top: 28;
+  left: 27;
+  -webkit-border-radius: 53px;
+  -moz-border-radius: 53px;
+  -ms-border-radius: 53px;
+  border-radius: 53px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral28 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 104;
+  test: 0;
+  height: 104;
+  top: 28;
+  left: 28;
+  -webkit-border-radius: 52px;
+  -moz-border-radius: 52px;
+  -ms-border-radius: 52px;
+  border-radius: 52px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral29 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 102;
+  test: 1;
+  height: 102;
+  top: 29;
+  left: 29;
+  -webkit-border-radius: 51px;
+  -moz-border-radius: 51px;
+  -ms-border-radius: 51px;
+  border-radius: 51px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral30 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 100;
+  test: 2;
+  height: 100;
+  top: 30;
+  left: 31;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral31 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 98;
+  test: 3;
+  height: 98;
+  top: 32;
+  left: 31;
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  -ms-border-radius: 49px;
+  border-radius: 49px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral32 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 96;
+  test: 0;
+  height: 96;
+  top: 32;
+  left: 32;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  border-radius: 48px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral33 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 94;
+  test: 1;
+  height: 94;
+  top: 33;
+  left: 33;
+  -webkit-border-radius: 47px;
+  -moz-border-radius: 47px;
+  -ms-border-radius: 47px;
+  border-radius: 47px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral34 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 92;
+  test: 2;
+  height: 92;
+  top: 34;
+  left: 35;
+  -webkit-border-radius: 46px;
+  -moz-border-radius: 46px;
+  -ms-border-radius: 46px;
+  border-radius: 46px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral35 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 90;
+  test: 3;
+  height: 90;
+  top: 36;
+  left: 35;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  border-radius: 45px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral36 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 88;
+  test: 0;
+  height: 88;
+  top: 36;
+  left: 36;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  -ms-border-radius: 44px;
+  border-radius: 44px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral37 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 86;
+  test: 1;
+  height: 86;
+  top: 37;
+  left: 37;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  -ms-border-radius: 43px;
+  border-radius: 43px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral38 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 84;
+  test: 2;
+  height: 84;
+  top: 38;
+  left: 39;
+  -webkit-border-radius: 42px;
+  -moz-border-radius: 42px;
+  -ms-border-radius: 42px;
+  border-radius: 42px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral39 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 82;
+  test: 3;
+  height: 82;
+  top: 40;
+  left: 39;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  border-radius: 41px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral40 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 80;
+  test: 0;
+  height: 80;
+  top: 40;
+  left: 40;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral41 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 78;
+  test: 1;
+  height: 78;
+  top: 41;
+  left: 41;
+  -webkit-border-radius: 39px;
+  -moz-border-radius: 39px;
+  -ms-border-radius: 39px;
+  border-radius: 39px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral42 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 76;
+  test: 2;
+  height: 76;
+  top: 42;
+  left: 43;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  border-radius: 38px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral43 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 74;
+  test: 3;
+  height: 74;
+  top: 44;
+  left: 43;
+  -webkit-border-radius: 37px;
+  -moz-border-radius: 37px;
+  -ms-border-radius: 37px;
+  border-radius: 37px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral44 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 72;
+  test: 0;
+  height: 72;
+  top: 44;
+  left: 44;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  border-radius: 36px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral45 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 70;
+  test: 1;
+  height: 70;
+  top: 45;
+  left: 45;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral46 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 68;
+  test: 2;
+  height: 68;
+  top: 46;
+  left: 47;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  -ms-border-radius: 34px;
+  border-radius: 34px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral47 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 66;
+  test: 3;
+  height: 66;
+  top: 48;
+  left: 47;
+  -webkit-border-radius: 33px;
+  -moz-border-radius: 33px;
+  -ms-border-radius: 33px;
+  border-radius: 33px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral48 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 64;
+  test: 0;
+  height: 64;
+  top: 48;
+  left: 48;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  border-radius: 32px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral49 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 62;
+  test: 1;
+  height: 62;
+  top: 49;
+  left: 49;
+  -webkit-border-radius: 31px;
+  -moz-border-radius: 31px;
+  -ms-border-radius: 31px;
+  border-radius: 31px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral50 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 60;
+  test: 2;
+  height: 60;
+  top: 50;
+  left: 51;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral51 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 58;
+  test: 3;
+  height: 58;
+  top: 52;
+  left: 51;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  border-radius: 29px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral52 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 56;
+  test: 0;
+  height: 56;
+  top: 52;
+  left: 52;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  border-radius: 28px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral53 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 54;
+  test: 1;
+  height: 54;
+  top: 53;
+  left: 53;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -ms-border-radius: 27px;
+  border-radius: 27px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral54 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 52;
+  test: 2;
+  height: 52;
+  top: 54;
+  left: 55;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  border-radius: 26px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral55 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 50;
+  test: 3;
+  height: 50;
+  top: 56;
+  left: 55;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral56 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 48;
+  test: 0;
+  height: 48;
+  top: 56;
+  left: 56;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral57 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 46;
+  test: 1;
+  height: 46;
+  top: 57;
+  left: 57;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  border-radius: 23px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral58 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 44;
+  test: 2;
+  height: 44;
+  top: 58;
+  left: 59;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  border-radius: 22px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral59 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 42;
+  test: 3;
+  height: 42;
+  top: 60;
+  left: 59;
+  -webkit-border-radius: 21px;
+  -moz-border-radius: 21px;
+  -ms-border-radius: 21px;
+  border-radius: 21px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral60 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 40;
+  test: 0;
+  height: 40;
+  top: 60;
+  left: 60;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral61 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 38;
+  test: 1;
+  height: 38;
+  top: 61;
+  left: 61;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  border-radius: 19px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral62 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 36;
+  test: 2;
+  height: 36;
+  top: 62;
+  left: 63;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  border-radius: 18px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral63 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 34;
+  test: 3;
+  height: 34;
+  top: 64;
+  left: 63;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  border-radius: 17px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral64 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 32;
+  test: 0;
+  height: 32;
+  top: 64;
+  left: 64;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral65 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 30;
+  test: 1;
+  height: 30;
+  top: 65;
+  left: 65;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral66 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 28;
+  test: 2;
+  height: 28;
+  top: 66;
+  left: 67;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  border-radius: 14px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral67 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 26;
+  test: 3;
+  height: 26;
+  top: 68;
+  left: 67;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  border-radius: 13px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral68 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 24;
+  test: 0;
+  height: 24;
+  top: 68;
+  left: 68;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral69 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 22;
+  test: 1;
+  height: 22;
+  top: 69;
+  left: 69;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  border-radius: 11px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral70 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 20;
+  test: 2;
+  height: 20;
+  top: 70;
+  left: 71;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral71 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 18;
+  test: 3;
+  height: 18;
+  top: 72;
+  left: 71;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-radius: 9px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral72 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 16;
+  test: 0;
+  height: 16;
+  top: 72;
+  left: 72;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral73 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 14;
+  test: 1;
+  height: 14;
+  top: 73;
+  left: 73;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral74 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 12;
+  test: 2;
+  height: 12;
+  top: 74;
+  left: 75;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral75 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 10;
+  test: 3;
+  height: 10;
+  top: 76;
+  left: 75;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral76 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 8;
+  test: 0;
+  height: 8;
+  top: 76;
+  left: 76;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral77 {
+  border-right: 1px solid;
+  border-color: inherit;
+  width: 6;
+  test: 1;
+  height: 6;
+  top: 77;
+  left: 77;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral78 {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  width: 4;
+  test: 2;
+  height: 4;
+  top: 78;
+  left: 79;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral79 {
+  border-left: 1px solid;
+  border-color: inherit;
+  width: 2;
+  test: 3;
+  height: 2;
+  top: 80;
+  left: 79;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  border-radius: 1px;
+}
+
+/* top, right, bottom, left */
+/* line 131, ../sass/spiral.scss */
+.spiral80 {
+  border-top: 1px solid;
+  border-color: inherit;
+  width: 0;
+  test: 0;
+  height: 0;
+  top: 80;
+  left: 80;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}

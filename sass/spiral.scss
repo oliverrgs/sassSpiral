@@ -1,0 +1,145 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+
+.spiralContainer {border-color:red;
+
+}
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius * 1px;
+     -moz-border-radius: $radius * 1px;
+      -ms-border-radius: $radius * 1px;
+          border-radius: $radius * 1px;
+}
+
+
+@function offsetToColor($offset){
+	@if $offset % 6 == 0 {
+		@return red;
+	}
+	@if $offset % 6 == 1 {
+		@return orange;
+	}
+	@if $offset % 6 == 2 {
+		@return yellow;
+	}
+	@if $offset % 6 == 3 {
+		@return green;
+	}
+	@if $offset % 6 == 4 {
+		@return blue;
+	}
+	@if $offset % 6 == 5 {
+		@return purple;
+	}
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+@-webkit-keyframes changecircle {
+	@for $itt from 0 through 6 {
+		#{(($itt / 6 ) * 100%)} {background: offsetToColor($itt);}
+	}
+		
+}
+@keyframes changecircle {
+	@for $itt from 0 through 6 {
+		#{(($itt / 6 ) * 100%)} {background: offsetToColor($itt);}
+	}
+}
+
+
+
+.allspiral {
+	position:absolute;
+	background-color:yellow;
+	-webkit-animation: changecircle 5s infinite;
+    animation: changecircle 5s infinite;
+}
+
+@mixin sideToBorder($sideType){
+	@if $sideType == 0 {
+		border-top:($sidewidth) * 1px solid;
+		border-color:inherit;
+	}
+	@if $sideType == 1 {
+		border-right:($sidewidth) * 1px solid;
+		border-color:inherit;
+	}
+	@if $sideType == 2 {
+		border-bottom:($sidewidth) * 1px solid;
+		border-color:inherit;
+	}
+	@if $sideType == 3 {
+		border-left:($sidewidth) * 1px solid;
+		border-color:inherit;
+	}
+	
+}
+$max : 80;
+$sidewidth: 1;
+$blankwidth: 2;
+$lineDisp : $blankwidth;
+$maxwidth : $max * $lineDisp ;
+$maxheight : $max * $lineDisp ;
+
+.spiralContainer {
+	-webkit-animation: spin 5s infinite;
+    animation: spin 5s infinite;
+	width: $maxwidth;
+	height: $maxheight;
+	position:relative;
+	}
+
+$topDisp:0;
+$leftDisp:0;
+@for $itt from 1 through $max {
+	/* top, right, bottom, left */
+	$sideType: $itt % 4 ;
+	
+	$normalizedIterator : 4 * ceil(($itt - 1) / 4);
+	$diameter : ($max - $itt)  * $lineDisp;
+	
+	@if $sideType == 0 {
+		$leftDisp : ($maxwidth - $diameter) / 2 ;
+		$topDisp : ($maxheight - $diameter) / 2 ;
+	}
+	@if $sideType == 1 {
+		$leftDisp : ($maxwidth - $diameter) / 2 ;
+		$topDisp : ($maxheight - $diameter) / 2 ;
+	}
+	@if $sideType == 2 {
+		$leftDisp : ($maxwidth - $diameter) / 2  + $sidewidth;
+		$topDisp : ($maxheight - $diameter) / 2 ;
+	}
+	@if $sideType == 3 {
+		$leftDisp : ($maxwidth - $diameter) / 2 ;
+		$topDisp : ($maxheight - $diameter) / 2 + $sidewidth;
+	}
+	
+	.spiral#{$itt} {
+		@include sideToBorder( $sideType );
+		@extend .allspiral;
+		
+		width: $diameter;
+		
+		test: #{$sideType};
+		
+		height:$diameter;
+		top: $topDisp ;
+		left: $leftDisp ;
+		@include border-radius( $diameter/2 );
+	}
+	
+}
