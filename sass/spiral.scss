@@ -6,8 +6,9 @@
 @import "compass/reset";
 
 
-
 .spiralContainer {border-color:red;
+top:50px;
+left:50px
 
 }
 
@@ -87,9 +88,9 @@
 	}
 	
 }
-$max : 80;
-$sidewidth: 1;
-$blankwidth: 2;
+$max : 30;
+$sidewidth: 8;
+$blankwidth: 19;
 $lineDisp : $blankwidth;
 $maxwidth : $max * $lineDisp ;
 $maxheight : $max * $lineDisp ;
@@ -143,3 +144,4 @@ $leftDisp:0;
 	}
 	
 }
+@import "bender";
