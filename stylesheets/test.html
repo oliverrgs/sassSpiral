@@ -4,9 +4,16 @@
 <body>
 <script type="text/javascript">
 var html="";
+var mahString ="Here is a very cool and long string oh wow boy does it just keep on going and going this is a good test of functionality don't you think it actually seems to work pretty well even when I make the string even longer";
 html+=("<div class=\"spiralContainer\">");
 for(var i=0;i<100;i++){
 		html+=("<div class=\"spiral"+i+"\"></div>");
+		}
+		
+for(var i=0;i<400;i++){
+		html+=("<div class=\"textSpin derp"+(i+1)+"\">"
+		+mahString.charAt(i)+
+		"</div>");
 }
 html+=("</div>");
 document.write(html);
