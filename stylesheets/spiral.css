@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,70 +24,72 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 10, ../sass/spiral.scss */
+/* line 9, ../sass/spiral.scss */
 .spiralContainer {
   border-color: red;
+  top: 50px;
+  left: 50px;
 }
 
 @-moz-keyframes spin {
-  /* line 45, ../sass/spiral.scss */
+  /* line 46, ../sass/spiral.scss */
   100% {
     -moz-transform: rotate(360deg);
   }
 }
 
 @-webkit-keyframes spin {
-  /* line 46, ../sass/spiral.scss */
+  /* line 47, ../sass/spiral.scss */
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
-  /* line 47, ../sass/spiral.scss */
+  /* line 48, ../sass/spiral.scss */
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -95,154 +97,442 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes changecircle {
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   0% {
     background: red;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   16.66667% {
     background: orange;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   33.33333% {
     background: yellow;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   50% {
     background: green;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   66.66667% {
     background: blue;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   83.33333% {
     background: purple;
   }
 
-  /* line 52, ../sass/spiral.scss */
+  /* line 53, ../sass/spiral.scss */
   100% {
     background: red;
   }
 }
 
 @keyframes changecircle {
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   0% {
     background: red;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   16.66667% {
     background: orange;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   33.33333% {
     background: yellow;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   50% {
     background: green;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   66.66667% {
     background: blue;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   83.33333% {
     background: purple;
   }
 
-  /* line 58, ../sass/spiral.scss */
+  /* line 59, ../sass/spiral.scss */
   100% {
     background: red;
   }
 }
 
-/* line 64, ../sass/spiral.scss */
-.allspiral, .spiral1, .spiral2, .spiral3, .spiral4, .spiral5, .spiral6, .spiral7, .spiral8, .spiral9, .spiral10, .spiral11, .spiral12, .spiral13, .spiral14, .spiral15, .spiral16, .spiral17, .spiral18, .spiral19, .spiral20, .spiral21, .spiral22, .spiral23, .spiral24, .spiral25, .spiral26, .spiral27, .spiral28, .spiral29, .spiral30, .spiral31, .spiral32, .spiral33, .spiral34, .spiral35, .spiral36, .spiral37, .spiral38, .spiral39, .spiral40, .spiral41, .spiral42, .spiral43, .spiral44, .spiral45, .spiral46, .spiral47, .spiral48, .spiral49, .spiral50, .spiral51, .spiral52, .spiral53, .spiral54, .spiral55, .spiral56, .spiral57, .spiral58, .spiral59, .spiral60, .spiral61, .spiral62, .spiral63, .spiral64, .spiral65, .spiral66, .spiral67, .spiral68, .spiral69, .spiral70, .spiral71, .spiral72, .spiral73, .spiral74, .spiral75, .spiral76, .spiral77, .spiral78, .spiral79, .spiral80 {
+/* line 65, ../sass/spiral.scss */
+.allspiral, .spiral1, .spiral2, .spiral3, .spiral4, .spiral5, .spiral6, .spiral7, .spiral8, .spiral9, .spiral10, .spiral11, .spiral12, .spiral13, .spiral14, .spiral15, .spiral16, .spiral17, .spiral18, .spiral19, .spiral20, .spiral21, .spiral22, .spiral23, .spiral24, .spiral25, .spiral26, .spiral27, .spiral28, .spiral29, .spiral30 {
   position: absolute;
   background-color: yellow;
   -webkit-animation: changecircle 5s infinite;
   animation: changecircle 5s infinite;
 }
 
-/* line 97, ../sass/spiral.scss */
+/* line 98, ../sass/spiral.scss */
 .spiralContainer {
   -webkit-animation: spin 5s infinite;
   animation: spin 5s infinite;
-  width: 160;
-  height: 160;
+  width: 570;
+  height: 570;
   position: relative;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral1 {
-  border-right: 1px solid;
+  border-right: 8px solid;
   border-color: inherit;
-  width: 158;
+  width: 551;
   test: 1;
-  height: 158;
-  top: 1;
-  left: 1;
-  -webkit-border-radius: 79px;
-  -moz-border-radius: 79px;
-  -ms-border-radius: 79px;
-  border-radius: 79px;
+  height: 551;
+  top: 9.5;
+  left: 9.5;
+  -webkit-border-radius: 275.5px;
+  -moz-border-radius: 275.5px;
+  -ms-border-radius: 275.5px;
+  border-radius: 275.5px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral2 {
-  border-bottom: 1px solid;
+  border-bottom: 8px solid;
   border-color: inherit;
-  width: 156;
+  width: 532;
   test: 2;
-  height: 156;
-  top: 2;
-  left: 3;
-  -webkit-border-radius: 78px;
-  -moz-border-radius: 78px;
-  -ms-border-radius: 78px;
-  border-radius: 78px;
+  height: 532;
+  top: 19;
+  left: 27;
+  -webkit-border-radius: 266px;
+  -moz-border-radius: 266px;
+  -ms-border-radius: 266px;
+  border-radius: 266px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral3 {
-  border-left: 1px solid;
+  border-left: 8px solid;
   border-color: inherit;
-  width: 154;
+  width: 513;
   test: 3;
-  height: 154;
-  top: 4;
-  left: 3;
-  -webkit-border-radius: 77px;
-  -moz-border-radius: 77px;
-  -ms-border-radius: 77px;
-  border-radius: 77px;
+  height: 513;
+  top: 36.5;
+  left: 28.5;
+  -webkit-border-radius: 256.5px;
+  -moz-border-radius: 256.5px;
+  -ms-border-radius: 256.5px;
+  border-radius: 256.5px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral4 {
-  border-top: 1px solid;
+  border-top: 8px solid;
+  border-color: inherit;
+  width: 494;
+  test: 0;
+  height: 494;
+  top: 38;
+  left: 38;
+  -webkit-border-radius: 247px;
+  -moz-border-radius: 247px;
+  -ms-border-radius: 247px;
+  border-radius: 247px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral5 {
+  border-right: 8px solid;
+  border-color: inherit;
+  width: 475;
+  test: 1;
+  height: 475;
+  top: 47.5;
+  left: 47.5;
+  -webkit-border-radius: 237.5px;
+  -moz-border-radius: 237.5px;
+  -ms-border-radius: 237.5px;
+  border-radius: 237.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral6 {
+  border-bottom: 8px solid;
+  border-color: inherit;
+  width: 456;
+  test: 2;
+  height: 456;
+  top: 57;
+  left: 65;
+  -webkit-border-radius: 228px;
+  -moz-border-radius: 228px;
+  -ms-border-radius: 228px;
+  border-radius: 228px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral7 {
+  border-left: 8px solid;
+  border-color: inherit;
+  width: 437;
+  test: 3;
+  height: 437;
+  top: 74.5;
+  left: 66.5;
+  -webkit-border-radius: 218.5px;
+  -moz-border-radius: 218.5px;
+  -ms-border-radius: 218.5px;
+  border-radius: 218.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral8 {
+  border-top: 8px solid;
+  border-color: inherit;
+  width: 418;
+  test: 0;
+  height: 418;
+  top: 76;
+  left: 76;
+  -webkit-border-radius: 209px;
+  -moz-border-radius: 209px;
+  -ms-border-radius: 209px;
+  border-radius: 209px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral9 {
+  border-right: 8px solid;
+  border-color: inherit;
+  width: 399;
+  test: 1;
+  height: 399;
+  top: 85.5;
+  left: 85.5;
+  -webkit-border-radius: 199.5px;
+  -moz-border-radius: 199.5px;
+  -ms-border-radius: 199.5px;
+  border-radius: 199.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral10 {
+  border-bottom: 8px solid;
+  border-color: inherit;
+  width: 380;
+  test: 2;
+  height: 380;
+  top: 95;
+  left: 103;
+  -webkit-border-radius: 190px;
+  -moz-border-radius: 190px;
+  -ms-border-radius: 190px;
+  border-radius: 190px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral11 {
+  border-left: 8px solid;
+  border-color: inherit;
+  width: 361;
+  test: 3;
+  height: 361;
+  top: 112.5;
+  left: 104.5;
+  -webkit-border-radius: 180.5px;
+  -moz-border-radius: 180.5px;
+  -ms-border-radius: 180.5px;
+  border-radius: 180.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral12 {
+  border-top: 8px solid;
+  border-color: inherit;
+  width: 342;
+  test: 0;
+  height: 342;
+  top: 114;
+  left: 114;
+  -webkit-border-radius: 171px;
+  -moz-border-radius: 171px;
+  -ms-border-radius: 171px;
+  border-radius: 171px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral13 {
+  border-right: 8px solid;
+  border-color: inherit;
+  width: 323;
+  test: 1;
+  height: 323;
+  top: 123.5;
+  left: 123.5;
+  -webkit-border-radius: 161.5px;
+  -moz-border-radius: 161.5px;
+  -ms-border-radius: 161.5px;
+  border-radius: 161.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral14 {
+  border-bottom: 8px solid;
+  border-color: inherit;
+  width: 304;
+  test: 2;
+  height: 304;
+  top: 133;
+  left: 141;
+  -webkit-border-radius: 152px;
+  -moz-border-radius: 152px;
+  -ms-border-radius: 152px;
+  border-radius: 152px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral15 {
+  border-left: 8px solid;
+  border-color: inherit;
+  width: 285;
+  test: 3;
+  height: 285;
+  top: 150.5;
+  left: 142.5;
+  -webkit-border-radius: 142.5px;
+  -moz-border-radius: 142.5px;
+  -ms-border-radius: 142.5px;
+  border-radius: 142.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral16 {
+  border-top: 8px solid;
+  border-color: inherit;
+  width: 266;
+  test: 0;
+  height: 266;
+  top: 152;
+  left: 152;
+  -webkit-border-radius: 133px;
+  -moz-border-radius: 133px;
+  -ms-border-radius: 133px;
+  border-radius: 133px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral17 {
+  border-right: 8px solid;
+  border-color: inherit;
+  width: 247;
+  test: 1;
+  height: 247;
+  top: 161.5;
+  left: 161.5;
+  -webkit-border-radius: 123.5px;
+  -moz-border-radius: 123.5px;
+  -ms-border-radius: 123.5px;
+  border-radius: 123.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral18 {
+  border-bottom: 8px solid;
+  border-color: inherit;
+  width: 228;
+  test: 2;
+  height: 228;
+  top: 171;
+  left: 179;
+  -webkit-border-radius: 114px;
+  -moz-border-radius: 114px;
+  -ms-border-radius: 114px;
+  border-radius: 114px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral19 {
+  border-left: 8px solid;
+  border-color: inherit;
+  width: 209;
+  test: 3;
+  height: 209;
+  top: 188.5;
+  left: 180.5;
+  -webkit-border-radius: 104.5px;
+  -moz-border-radius: 104.5px;
+  -ms-border-radius: 104.5px;
+  border-radius: 104.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral20 {
+  border-top: 8px solid;
+  border-color: inherit;
+  width: 190;
+  test: 0;
+  height: 190;
+  top: 190;
+  left: 190;
+  -webkit-border-radius: 95px;
+  -moz-border-radius: 95px;
+  -ms-border-radius: 95px;
+  border-radius: 95px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral21 {
+  border-right: 8px solid;
+  border-color: inherit;
+  width: 171;
+  test: 1;
+  height: 171;
+  top: 199.5;
+  left: 199.5;
+  -webkit-border-radius: 85.5px;
+  -moz-border-radius: 85.5px;
+  -ms-border-radius: 85.5px;
+  border-radius: 85.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral22 {
+  border-bottom: 8px solid;
   border-color: inherit;
   width: 152;
-  test: 0;
+  test: 2;
   height: 152;
-  top: 4;
-  left: 4;
+  top: 209;
+  left: 217;
   -webkit-border-radius: 76px;
   -moz-border-radius: 76px;
   -ms-border-radius: 76px;
@@ -250,303 +540,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral5 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 150;
-  test: 1;
-  height: 150;
-  top: 5;
-  left: 5;
-  -webkit-border-radius: 75px;
-  -moz-border-radius: 75px;
-  -ms-border-radius: 75px;
-  border-radius: 75px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral6 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 148;
-  test: 2;
-  height: 148;
-  top: 6;
-  left: 7;
-  -webkit-border-radius: 74px;
-  -moz-border-radius: 74px;
-  -ms-border-radius: 74px;
-  border-radius: 74px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral7 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 146;
-  test: 3;
-  height: 146;
-  top: 8;
-  left: 7;
-  -webkit-border-radius: 73px;
-  -moz-border-radius: 73px;
-  -ms-border-radius: 73px;
-  border-radius: 73px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral8 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 144;
-  test: 0;
-  height: 144;
-  top: 8;
-  left: 8;
-  -webkit-border-radius: 72px;
-  -moz-border-radius: 72px;
-  -ms-border-radius: 72px;
-  border-radius: 72px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral9 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 142;
-  test: 1;
-  height: 142;
-  top: 9;
-  left: 9;
-  -webkit-border-radius: 71px;
-  -moz-border-radius: 71px;
-  -ms-border-radius: 71px;
-  border-radius: 71px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral10 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 140;
-  test: 2;
-  height: 140;
-  top: 10;
-  left: 11;
-  -webkit-border-radius: 70px;
-  -moz-border-radius: 70px;
-  -ms-border-radius: 70px;
-  border-radius: 70px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral11 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 138;
-  test: 3;
-  height: 138;
-  top: 12;
-  left: 11;
-  -webkit-border-radius: 69px;
-  -moz-border-radius: 69px;
-  -ms-border-radius: 69px;
-  border-radius: 69px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral12 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 136;
-  test: 0;
-  height: 136;
-  top: 12;
-  left: 12;
-  -webkit-border-radius: 68px;
-  -moz-border-radius: 68px;
-  -ms-border-radius: 68px;
-  border-radius: 68px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral13 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 134;
-  test: 1;
-  height: 134;
-  top: 13;
-  left: 13;
-  -webkit-border-radius: 67px;
-  -moz-border-radius: 67px;
-  -ms-border-radius: 67px;
-  border-radius: 67px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral14 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 132;
-  test: 2;
-  height: 132;
-  top: 14;
-  left: 15;
-  -webkit-border-radius: 66px;
-  -moz-border-radius: 66px;
-  -ms-border-radius: 66px;
-  border-radius: 66px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral15 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 130;
-  test: 3;
-  height: 130;
-  top: 16;
-  left: 15;
-  -webkit-border-radius: 65px;
-  -moz-border-radius: 65px;
-  -ms-border-radius: 65px;
-  border-radius: 65px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral16 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 128;
-  test: 0;
-  height: 128;
-  top: 16;
-  left: 16;
-  -webkit-border-radius: 64px;
-  -moz-border-radius: 64px;
-  -ms-border-radius: 64px;
-  border-radius: 64px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral17 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 126;
-  test: 1;
-  height: 126;
-  top: 17;
-  left: 17;
-  -webkit-border-radius: 63px;
-  -moz-border-radius: 63px;
-  -ms-border-radius: 63px;
-  border-radius: 63px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral18 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 124;
-  test: 2;
-  height: 124;
-  top: 18;
-  left: 19;
-  -webkit-border-radius: 62px;
-  -moz-border-radius: 62px;
-  -ms-border-radius: 62px;
-  border-radius: 62px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral19 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 122;
-  test: 3;
-  height: 122;
-  top: 20;
-  left: 19;
-  -webkit-border-radius: 61px;
-  -moz-border-radius: 61px;
-  -ms-border-radius: 61px;
-  border-radius: 61px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral20 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 120;
-  test: 0;
-  height: 120;
-  top: 20;
-  left: 20;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -ms-border-radius: 60px;
-  border-radius: 60px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral21 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 118;
-  test: 1;
-  height: 118;
-  top: 21;
-  left: 21;
-  -webkit-border-radius: 59px;
-  -moz-border-radius: 59px;
-  -ms-border-radius: 59px;
-  border-radius: 59px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral22 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 116;
-  test: 2;
-  height: 116;
-  top: 22;
-  left: 23;
-  -webkit-border-radius: 58px;
-  -moz-border-radius: 58px;
-  -ms-border-radius: 58px;
-  border-radius: 58px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral23 {
-  border-left: 1px solid;
+  border-left: 8px solid;
+  border-color: inherit;
+  width: 133;
+  test: 3;
+  height: 133;
+  top: 226.5;
+  left: 218.5;
+  -webkit-border-radius: 66.5px;
+  -moz-border-radius: 66.5px;
+  -ms-border-radius: 66.5px;
+  border-radius: 66.5px;
+}
+
+/* top, right, bottom, left */
+/* line 132, ../sass/spiral.scss */
+.spiral24 {
+  border-top: 8px solid;
   border-color: inherit;
   width: 114;
-  test: 3;
+  test: 0;
   height: 114;
-  top: 24;
-  left: 23;
+  top: 228;
+  left: 228;
   -webkit-border-radius: 57px;
   -moz-border-radius: 57px;
   -ms-border-radius: 57px;
@@ -554,303 +572,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral24 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 112;
-  test: 0;
-  height: 112;
-  top: 24;
-  left: 24;
-  -webkit-border-radius: 56px;
-  -moz-border-radius: 56px;
-  -ms-border-radius: 56px;
-  border-radius: 56px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral25 {
-  border-right: 1px solid;
+  border-right: 8px solid;
   border-color: inherit;
-  width: 110;
+  width: 95;
   test: 1;
-  height: 110;
-  top: 25;
-  left: 25;
-  -webkit-border-radius: 55px;
-  -moz-border-radius: 55px;
-  -ms-border-radius: 55px;
-  border-radius: 55px;
+  height: 95;
+  top: 237.5;
+  left: 237.5;
+  -webkit-border-radius: 47.5px;
+  -moz-border-radius: 47.5px;
+  -ms-border-radius: 47.5px;
+  border-radius: 47.5px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
+/* line 132, ../sass/spiral.scss */
 .spiral26 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 108;
-  test: 2;
-  height: 108;
-  top: 26;
-  left: 27;
-  -webkit-border-radius: 54px;
-  -moz-border-radius: 54px;
-  -ms-border-radius: 54px;
-  border-radius: 54px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral27 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 106;
-  test: 3;
-  height: 106;
-  top: 28;
-  left: 27;
-  -webkit-border-radius: 53px;
-  -moz-border-radius: 53px;
-  -ms-border-radius: 53px;
-  border-radius: 53px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral28 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 104;
-  test: 0;
-  height: 104;
-  top: 28;
-  left: 28;
-  -webkit-border-radius: 52px;
-  -moz-border-radius: 52px;
-  -ms-border-radius: 52px;
-  border-radius: 52px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral29 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 102;
-  test: 1;
-  height: 102;
-  top: 29;
-  left: 29;
-  -webkit-border-radius: 51px;
-  -moz-border-radius: 51px;
-  -ms-border-radius: 51px;
-  border-radius: 51px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral30 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 100;
-  test: 2;
-  height: 100;
-  top: 30;
-  left: 31;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  border-radius: 50px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral31 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 98;
-  test: 3;
-  height: 98;
-  top: 32;
-  left: 31;
-  -webkit-border-radius: 49px;
-  -moz-border-radius: 49px;
-  -ms-border-radius: 49px;
-  border-radius: 49px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral32 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 96;
-  test: 0;
-  height: 96;
-  top: 32;
-  left: 32;
-  -webkit-border-radius: 48px;
-  -moz-border-radius: 48px;
-  -ms-border-radius: 48px;
-  border-radius: 48px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral33 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 94;
-  test: 1;
-  height: 94;
-  top: 33;
-  left: 33;
-  -webkit-border-radius: 47px;
-  -moz-border-radius: 47px;
-  -ms-border-radius: 47px;
-  border-radius: 47px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral34 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 92;
-  test: 2;
-  height: 92;
-  top: 34;
-  left: 35;
-  -webkit-border-radius: 46px;
-  -moz-border-radius: 46px;
-  -ms-border-radius: 46px;
-  border-radius: 46px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral35 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 90;
-  test: 3;
-  height: 90;
-  top: 36;
-  left: 35;
-  -webkit-border-radius: 45px;
-  -moz-border-radius: 45px;
-  -ms-border-radius: 45px;
-  border-radius: 45px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral36 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 88;
-  test: 0;
-  height: 88;
-  top: 36;
-  left: 36;
-  -webkit-border-radius: 44px;
-  -moz-border-radius: 44px;
-  -ms-border-radius: 44px;
-  border-radius: 44px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral37 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 86;
-  test: 1;
-  height: 86;
-  top: 37;
-  left: 37;
-  -webkit-border-radius: 43px;
-  -moz-border-radius: 43px;
-  -ms-border-radius: 43px;
-  border-radius: 43px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral38 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 84;
-  test: 2;
-  height: 84;
-  top: 38;
-  left: 39;
-  -webkit-border-radius: 42px;
-  -moz-border-radius: 42px;
-  -ms-border-radius: 42px;
-  border-radius: 42px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral39 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 82;
-  test: 3;
-  height: 82;
-  top: 40;
-  left: 39;
-  -webkit-border-radius: 41px;
-  -moz-border-radius: 41px;
-  -ms-border-radius: 41px;
-  border-radius: 41px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral40 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 80;
-  test: 0;
-  height: 80;
-  top: 40;
-  left: 40;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  border-radius: 40px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral41 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 78;
-  test: 1;
-  height: 78;
-  top: 41;
-  left: 41;
-  -webkit-border-radius: 39px;
-  -moz-border-radius: 39px;
-  -ms-border-radius: 39px;
-  border-radius: 39px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral42 {
-  border-bottom: 1px solid;
+  border-bottom: 8px solid;
   border-color: inherit;
   width: 76;
   test: 2;
   height: 76;
-  top: 42;
-  left: 43;
+  top: 247;
+  left: 255;
   -webkit-border-radius: 38px;
   -moz-border-radius: 38px;
   -ms-border-radius: 38px;
@@ -858,303 +604,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral43 {
-  border-left: 1px solid;
+/* line 132, ../sass/spiral.scss */
+.spiral27 {
+  border-left: 8px solid;
   border-color: inherit;
-  width: 74;
+  width: 57;
   test: 3;
-  height: 74;
-  top: 44;
-  left: 43;
-  -webkit-border-radius: 37px;
-  -moz-border-radius: 37px;
-  -ms-border-radius: 37px;
-  border-radius: 37px;
+  height: 57;
+  top: 264.5;
+  left: 256.5;
+  -webkit-border-radius: 28.5px;
+  -moz-border-radius: 28.5px;
+  -ms-border-radius: 28.5px;
+  border-radius: 28.5px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral44 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 72;
-  test: 0;
-  height: 72;
-  top: 44;
-  left: 44;
-  -webkit-border-radius: 36px;
-  -moz-border-radius: 36px;
-  -ms-border-radius: 36px;
-  border-radius: 36px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral45 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 70;
-  test: 1;
-  height: 70;
-  top: 45;
-  left: 45;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  border-radius: 35px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral46 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 68;
-  test: 2;
-  height: 68;
-  top: 46;
-  left: 47;
-  -webkit-border-radius: 34px;
-  -moz-border-radius: 34px;
-  -ms-border-radius: 34px;
-  border-radius: 34px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral47 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 66;
-  test: 3;
-  height: 66;
-  top: 48;
-  left: 47;
-  -webkit-border-radius: 33px;
-  -moz-border-radius: 33px;
-  -ms-border-radius: 33px;
-  border-radius: 33px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral48 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 64;
-  test: 0;
-  height: 64;
-  top: 48;
-  left: 48;
-  -webkit-border-radius: 32px;
-  -moz-border-radius: 32px;
-  -ms-border-radius: 32px;
-  border-radius: 32px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral49 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 62;
-  test: 1;
-  height: 62;
-  top: 49;
-  left: 49;
-  -webkit-border-radius: 31px;
-  -moz-border-radius: 31px;
-  -ms-border-radius: 31px;
-  border-radius: 31px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral50 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 60;
-  test: 2;
-  height: 60;
-  top: 50;
-  left: 51;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral51 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 58;
-  test: 3;
-  height: 58;
-  top: 52;
-  left: 51;
-  -webkit-border-radius: 29px;
-  -moz-border-radius: 29px;
-  -ms-border-radius: 29px;
-  border-radius: 29px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral52 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 56;
-  test: 0;
-  height: 56;
-  top: 52;
-  left: 52;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  -ms-border-radius: 28px;
-  border-radius: 28px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral53 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 54;
-  test: 1;
-  height: 54;
-  top: 53;
-  left: 53;
-  -webkit-border-radius: 27px;
-  -moz-border-radius: 27px;
-  -ms-border-radius: 27px;
-  border-radius: 27px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral54 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 52;
-  test: 2;
-  height: 52;
-  top: 54;
-  left: 55;
-  -webkit-border-radius: 26px;
-  -moz-border-radius: 26px;
-  -ms-border-radius: 26px;
-  border-radius: 26px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral55 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 50;
-  test: 3;
-  height: 50;
-  top: 56;
-  left: 55;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  border-radius: 25px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral56 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 48;
-  test: 0;
-  height: 48;
-  top: 56;
-  left: 56;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  -ms-border-radius: 24px;
-  border-radius: 24px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral57 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 46;
-  test: 1;
-  height: 46;
-  top: 57;
-  left: 57;
-  -webkit-border-radius: 23px;
-  -moz-border-radius: 23px;
-  -ms-border-radius: 23px;
-  border-radius: 23px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral58 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 44;
-  test: 2;
-  height: 44;
-  top: 58;
-  left: 59;
-  -webkit-border-radius: 22px;
-  -moz-border-radius: 22px;
-  -ms-border-radius: 22px;
-  border-radius: 22px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral59 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 42;
-  test: 3;
-  height: 42;
-  top: 60;
-  left: 59;
-  -webkit-border-radius: 21px;
-  -moz-border-radius: 21px;
-  -ms-border-radius: 21px;
-  border-radius: 21px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral60 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 40;
-  test: 0;
-  height: 40;
-  top: 60;
-  left: 60;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  border-radius: 20px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral61 {
-  border-right: 1px solid;
+/* line 132, ../sass/spiral.scss */
+.spiral28 {
+  border-top: 8px solid;
   border-color: inherit;
   width: 38;
-  test: 1;
+  test: 0;
   height: 38;
-  top: 61;
-  left: 61;
+  top: 266;
+  left: 266;
   -webkit-border-radius: 19px;
   -moz-border-radius: 19px;
   -ms-border-radius: 19px;
@@ -1162,305 +636,5653 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral62 {
-  border-bottom: 1px solid;
+/* line 132, ../sass/spiral.scss */
+.spiral29 {
+  border-right: 8px solid;
   border-color: inherit;
-  width: 36;
-  test: 2;
-  height: 36;
-  top: 62;
-  left: 63;
-  -webkit-border-radius: 18px;
-  -moz-border-radius: 18px;
-  -ms-border-radius: 18px;
-  border-radius: 18px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral63 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 34;
-  test: 3;
-  height: 34;
-  top: 64;
-  left: 63;
-  -webkit-border-radius: 17px;
-  -moz-border-radius: 17px;
-  -ms-border-radius: 17px;
-  border-radius: 17px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral64 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 32;
-  test: 0;
-  height: 32;
-  top: 64;
-  left: 64;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  border-radius: 16px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral65 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 30;
+  width: 19;
   test: 1;
-  height: 30;
-  top: 65;
-  left: 65;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  border-radius: 15px;
+  height: 19;
+  top: 275.5;
+  left: 275.5;
+  -webkit-border-radius: 9.5px;
+  -moz-border-radius: 9.5px;
+  -ms-border-radius: 9.5px;
+  border-radius: 9.5px;
 }
 
 /* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral66 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 28;
-  test: 2;
-  height: 28;
-  top: 66;
-  left: 67;
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  -ms-border-radius: 14px;
-  border-radius: 14px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral67 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 26;
-  test: 3;
-  height: 26;
-  top: 68;
-  left: 67;
-  -webkit-border-radius: 13px;
-  -moz-border-radius: 13px;
-  -ms-border-radius: 13px;
-  border-radius: 13px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral68 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 24;
-  test: 0;
-  height: 24;
-  top: 68;
-  left: 68;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  border-radius: 12px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral69 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 22;
-  test: 1;
-  height: 22;
-  top: 69;
-  left: 69;
-  -webkit-border-radius: 11px;
-  -moz-border-radius: 11px;
-  -ms-border-radius: 11px;
-  border-radius: 11px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral70 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 20;
-  test: 2;
-  height: 20;
-  top: 70;
-  left: 71;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral71 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 18;
-  test: 3;
-  height: 18;
-  top: 72;
-  left: 71;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  -ms-border-radius: 9px;
-  border-radius: 9px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral72 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 16;
-  test: 0;
-  height: 16;
-  top: 72;
-  left: 72;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  border-radius: 8px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral73 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 14;
-  test: 1;
-  height: 14;
-  top: 73;
-  left: 73;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral74 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 12;
-  test: 2;
-  height: 12;
-  top: 74;
-  left: 75;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  border-radius: 6px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral75 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 10;
-  test: 3;
-  height: 10;
-  top: 76;
-  left: 75;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral76 {
-  border-top: 1px solid;
-  border-color: inherit;
-  width: 8;
-  test: 0;
-  height: 8;
-  top: 76;
-  left: 76;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral77 {
-  border-right: 1px solid;
-  border-color: inherit;
-  width: 6;
-  test: 1;
-  height: 6;
-  top: 77;
-  left: 77;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral78 {
-  border-bottom: 1px solid;
-  border-color: inherit;
-  width: 4;
-  test: 2;
-  height: 4;
-  top: 78;
-  left: 79;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral79 {
-  border-left: 1px solid;
-  border-color: inherit;
-  width: 2;
-  test: 3;
-  height: 2;
-  top: 80;
-  left: 79;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  border-radius: 1px;
-}
-
-/* top, right, bottom, left */
-/* line 131, ../sass/spiral.scss */
-.spiral80 {
-  border-top: 1px solid;
+/* line 132, ../sass/spiral.scss */
+.spiral30 {
+  border-bottom: 8px solid;
   border-color: inherit;
   width: 0;
-  test: 0;
+  test: 2;
   height: 0;
-  top: 80;
-  left: 80;
+  top: 285;
+  left: 293;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
+}
+
+/* line 2, ../sass/_bender.scss */
+.spiralContainer .textSpin {
+  position: absolute;
+  content: "b";
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp0 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 22.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp1 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 23;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-5deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp2 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 23.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-10deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp3 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 24;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-15deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp4 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 24.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-20deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp5 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 25;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-25deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp6 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 25.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-30deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp7 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 26;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-35deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp8 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 26.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-40deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp9 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 27;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp10 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 27.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-50deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp11 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 28;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-55deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp12 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 28.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-60deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp13 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 29;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-65deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp14 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 29.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-70deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp15 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 30;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-75deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp16 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 30.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-80deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp17 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 31;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-85deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp18 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 31.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp19 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 32;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-95deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp20 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 32.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-100deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp21 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 33;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-105deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp22 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 33.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-110deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp23 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 34;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-115deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp24 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 34.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-120deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp25 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 35;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-125deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp26 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 35.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-130deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp27 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 36;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-135deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp28 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 36.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-140deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp29 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 37;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-145deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp30 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 37.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-150deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp31 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 38;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-155deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp32 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 38.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-160deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp33 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 39;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-165deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp34 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 39.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-170deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp35 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 40;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-175deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp36 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 40.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-180deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp37 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 41;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-185deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp38 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 41.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-190deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp39 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 42;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-195deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp40 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 42.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-200deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp41 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 43;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-205deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp42 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 43.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-210deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp43 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 44;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-215deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp44 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 44.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-220deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp45 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 45;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-225deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp46 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 45.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-230deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp47 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 46;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-235deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp48 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 46.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-240deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp49 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 47;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-245deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp50 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 47.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-250deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp51 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 48;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-255deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp52 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 48.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-260deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp53 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 49;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-265deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp54 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 49.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-270deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp55 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 50;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-275deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp56 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 50.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-280deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp57 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 51;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-285deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp58 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 51.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-290deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp59 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 52;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-295deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp60 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 52.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-300deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp61 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 53;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-305deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp62 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 53.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-310deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp63 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 54;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-315deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp64 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 54.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-320deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp65 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 55;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-325deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp66 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 55.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-330deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp67 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 56;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-335deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp68 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 56.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-340deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp69 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 57;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-345deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp70 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 57.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-350deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp71 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 58;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-355deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp72 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 58.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-360deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp73 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 59;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-365deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp74 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 59.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-370deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp75 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 60;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-375deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp76 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 60.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-380deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp77 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 61;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-385deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp78 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 61.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-390deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp79 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 62;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-395deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp80 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 62.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-400deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp81 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 63;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-405deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp82 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 63.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-410deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp83 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 64;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-415deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp84 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 64.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-420deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp85 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 65;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-425deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp86 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 65.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-430deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp87 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 66;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-435deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp88 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 66.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-440deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp89 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 67;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-445deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp90 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 67.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-450deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp91 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 68;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-455deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp92 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 68.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-460deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp93 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 69;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-465deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp94 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 69.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-470deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp95 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 70;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-475deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp96 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 70.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-480deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp97 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 71;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-485deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp98 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 71.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-490deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp99 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 72;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-495deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp100 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 72.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-500deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp101 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 73;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-505deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp102 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 73.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-510deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp103 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 74;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-515deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp104 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 74.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-520deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp105 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 75;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-525deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp106 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 75.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-530deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp107 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 76;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-535deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp108 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 76.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-540deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp109 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 77;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-545deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp110 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 77.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-550deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp111 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 78;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-555deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp112 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 78.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-560deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp113 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 79;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-565deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp114 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 79.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-570deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp115 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 80;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-575deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp116 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 80.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-580deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp117 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 81;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-585deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp118 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 81.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-590deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp119 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 82;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-595deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp120 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 82.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-600deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp121 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 83;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-605deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp122 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 83.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-610deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp123 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 84;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-615deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp124 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 84.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-620deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp125 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 85;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-625deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp126 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 85.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-630deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp127 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 86;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-635deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp128 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 86.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-640deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp129 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 87;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-645deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp130 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 87.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-650deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp131 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 88;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-655deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp132 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 88.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-660deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp133 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 89;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-665deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp134 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 89.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-670deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp135 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 90;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-675deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp136 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 90.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-680deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp137 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 91;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-685deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp138 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 91.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-690deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp139 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 92;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-695deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp140 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 92.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-700deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp141 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 93;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-705deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp142 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 93.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-710deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp143 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 94;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-715deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp144 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 94.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-720deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp145 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 95;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-725deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp146 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 95.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-730deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp147 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 96;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-735deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp148 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 96.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-740deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp149 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 97;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-745deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp150 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 97.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-750deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp151 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 98;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-755deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp152 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 98.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-760deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp153 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 99;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-765deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp154 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 99.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-770deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp155 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 100;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-775deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp156 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 100.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-780deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp157 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 101;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-785deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp158 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 101.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-790deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp159 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 102;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-795deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp160 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 102.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-800deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp161 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 103;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-805deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp162 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 103.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-810deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp163 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 104;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-815deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp164 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 104.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-820deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp165 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 105;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-825deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp166 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 105.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-830deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp167 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 106;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-835deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp168 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 106.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-840deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp169 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 107;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-845deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp170 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 107.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-850deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp171 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 108;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-855deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp172 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 108.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-860deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp173 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 109;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-865deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp174 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 109.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-870deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp175 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 110;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-875deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp176 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 110.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-880deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp177 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 111;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-885deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp178 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 111.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-890deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp179 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 112;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-895deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp180 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 112.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-900deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp181 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 113;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-905deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp182 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 113.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-910deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp183 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 114;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-915deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp184 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 114.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-920deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp185 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 115;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-925deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp186 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 115.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-930deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp187 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 116;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-935deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp188 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 116.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-940deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp189 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 117;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-945deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp190 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 117.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-950deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp191 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 118;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-955deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp192 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 118.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-960deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp193 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 119;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-965deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp194 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 119.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-970deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp195 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 120;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-975deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp196 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 120.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-980deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp197 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 121;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-985deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp198 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 121.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-990deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp199 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 122;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-995deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp200 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 122.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1000deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp201 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 123;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1005deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp202 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 123.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1010deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp203 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 124;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1015deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp204 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 124.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1020deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp205 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 125;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1025deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp206 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 125.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1030deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp207 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 126;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1035deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp208 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 126.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1040deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp209 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 127;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1045deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp210 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 127.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1050deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp211 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 128;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1055deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp212 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 128.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1060deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp213 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 129;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1065deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp214 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 129.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1070deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp215 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 130;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1075deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp216 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 130.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1080deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp217 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 131;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1085deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp218 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 131.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1090deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp219 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 132;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1095deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp220 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 132.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1100deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp221 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 133;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1105deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp222 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 133.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1110deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp223 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 134;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1115deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp224 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 134.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1120deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp225 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 135;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1125deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp226 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 135.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1130deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp227 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 136;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1135deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp228 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 136.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1140deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp229 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 137;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1145deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp230 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 137.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1150deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp231 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 138;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1155deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp232 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 138.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1160deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp233 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 139;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1165deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp234 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 139.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1170deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp235 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 140;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1175deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp236 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 140.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1180deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp237 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 141;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1185deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp238 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 141.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1190deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp239 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 142;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1195deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp240 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 142.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1200deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp241 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 143;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1205deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp242 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 143.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1210deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp243 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 144;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1215deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp244 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 144.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1220deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp245 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 145;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1225deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp246 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 145.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1230deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp247 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 146;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1235deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp248 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 146.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1240deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp249 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 147;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1245deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp250 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 147.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1250deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp251 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 148;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1255deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp252 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 148.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1260deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp253 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 149;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1265deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp254 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 149.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1270deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp255 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 150;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1275deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp256 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 150.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1280deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp257 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 151;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1285deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp258 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 151.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1290deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp259 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 152;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1295deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp260 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 152.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1300deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp261 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 153;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1305deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp262 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 153.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1310deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp263 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 154;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1315deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp264 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 154.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1320deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp265 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 155;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1325deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp266 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 155.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1330deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp267 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 156;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1335deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp268 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 156.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1340deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp269 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 157;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1345deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp270 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 157.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1350deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp271 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 158;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1355deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp272 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 158.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1360deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp273 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 159;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1365deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp274 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 159.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1370deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp275 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 160;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1375deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp276 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 160.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1380deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp277 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 161;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1385deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp278 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 161.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1390deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp279 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 162;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1395deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp280 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 162.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1400deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp281 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 163;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1405deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp282 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 163.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1410deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp283 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 164;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1415deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp284 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 164.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1420deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp285 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 165;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1425deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp286 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 165.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1430deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp287 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 166;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1435deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp288 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 166.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1440deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp289 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 167;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1445deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp290 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 167.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1450deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp291 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 168;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1455deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp292 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 168.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1460deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp293 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 169;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1465deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp294 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 169.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1470deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp295 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 170;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1475deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp296 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 170.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1480deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp297 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 171;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1485deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp298 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 171.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1490deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp299 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 172;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1495deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp300 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 172.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1500deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp301 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 173;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1505deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp302 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 173.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1510deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp303 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 174;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1515deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp304 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 174.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1520deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp305 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 175;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1525deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp306 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 175.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1530deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp307 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 176;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1535deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp308 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 176.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1540deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp309 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 177;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1545deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp310 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 177.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1550deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp311 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 178;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1555deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp312 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 178.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1560deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp313 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 179;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1565deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp314 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 179.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1570deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp315 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 180;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1575deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp316 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 180.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1580deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp317 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 181;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1585deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp318 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 181.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1590deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp319 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 182;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1595deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp320 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 182.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1600deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp321 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 183;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1605deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp322 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 183.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1610deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp323 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 184;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1615deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp324 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 184.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1620deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp325 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 185;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1625deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp326 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 185.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1630deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp327 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 186;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1635deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp328 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 186.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1640deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp329 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 187;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1645deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp330 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 187.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1650deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp331 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 188;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1655deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp332 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 188.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1660deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp333 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 189;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1665deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp334 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 189.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1670deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp335 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 190;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1675deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp336 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 190.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1680deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp337 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 191;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1685deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp338 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 191.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1690deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp339 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 192;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1695deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp340 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 192.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1700deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp341 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 193;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1705deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp342 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 193.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1710deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp343 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 194;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1715deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp344 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 194.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1720deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp345 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 195;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1725deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp346 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 195.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1730deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp347 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 196;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1735deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp348 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 196.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1740deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp349 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 197;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1745deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp350 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 197.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1750deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp351 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 198;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1755deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp352 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 198.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1760deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp353 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 199;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1765deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp354 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 199.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1770deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp355 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 200;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1775deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp356 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 200.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1780deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp357 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 201;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1785deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp358 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 201.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1790deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp359 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 202;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1795deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp360 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 202.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1800deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp361 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 203;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1805deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp362 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 203.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1810deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp363 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 204;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1815deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp364 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 204.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1820deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp365 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 205;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1825deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp366 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 205.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1830deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp367 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 206;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1835deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp368 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 206.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1840deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp369 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 207;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1845deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp370 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 207.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1850deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp371 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 208;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1855deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp372 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 208.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1860deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp373 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 209;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1865deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp374 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 209.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1870deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp375 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 210;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1875deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp376 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 210.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1880deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp377 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 211;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1885deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp378 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 211.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1890deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp379 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 212;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1895deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp380 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 212.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1900deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp381 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 213;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1905deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp382 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 213.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1910deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp383 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 214;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1915deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp384 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 214.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1920deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp385 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 215;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1925deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp386 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 215.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1930deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp387 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 216;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1935deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp388 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 216.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1940deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp389 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 217;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1945deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp390 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 217.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1950deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp391 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 218;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1955deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp392 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 218.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1960deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp393 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 219;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1965deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp394 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 219.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1970deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp395 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 220;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1975deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp396 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 220.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1980deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp397 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 221;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1985deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp398 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 221.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1990deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp399 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 222;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-1995deg);
+  -webkit-transform-origin: top center;
+}
+
+/* line 7, ../sass/_bender.scss */
+.derp400 {
+  z-index: 90001;
+  left: 285;
+  top: 285;
+  padding-top: 222.5;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 160px;
+  -webkit-transform: rotate(-2000deg);
+  -webkit-transform-origin: top center;
 }
